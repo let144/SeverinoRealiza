@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "239617097730",
+    "project_id": "severino-77e1c",
+    "storage_bucket": "severino-77e1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239617097730:android:c4644eae6730e5af7ee71b",
+        "android_client_info": {
+          "package_name": "com.example.severinorealiza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239617097730-22kjpeag9ufa4vidfcqh0v3afv792np4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS2WPbKnUpAAfCeu950Mek7mzj6mVX8AQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239617097730-22kjpeag9ufa4vidfcqh0v3afv792np4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239617097730:android:53d30a1727842b197ee71b",
+        "android_client_info": {
+          "package_name": "com.severinorealiza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239617097730-22kjpeag9ufa4vidfcqh0v3afv792np4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS2WPbKnUpAAfCeu950Mek7mzj6mVX8AQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239617097730-22kjpeag9ufa4vidfcqh0v3afv792np4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
