@@ -53,32 +53,33 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_entrar"
-       style="@style/Button"
+        style="@style/Button"
         android:text="@string/Entrar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edit_senha"/>
+
     <ProgressBar
         android:id="@+id/progressbar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ContainerComponents"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/ContainerComponents"/>
+
     <TextView
-        android:id="@+id/text_tela_cadatro"
+        android:id="@+id/text_cadastrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_castrastro"
-        android:textSize="20sp"
+        android:text="@string/text_cadastro"
         android:textColor="@color/black"
+        android:textSize="20sp"
         android:textStyle="italic"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="30dp"
-        app:layout_constraintTop_toBottomOf="@id/progressbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/bt_entrar"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
