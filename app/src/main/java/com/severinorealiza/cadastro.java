@@ -11,6 +11,6 @@ public class cadastro extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro);
 
-        getActionBar().hide();
+        getSupportActionBar().hide();
     }
 }
