@@ -19,6 +19,7 @@ public class login extends AppCompatActivity {
         getSupportActionBar().hide();
 
         IniciarComponentes();
+
         text_tela_cadastro.setOnClickListener (new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,6 +29,6 @@ public class login extends AppCompatActivity {
         });
     }
     private void IniciarComponentes(){
-        text_tela_cadastro = findViewById(R.id.text_cadastrar);
+        text_tela_cadastro = findViewById(R.id.text_cadastro);
 }
 }
