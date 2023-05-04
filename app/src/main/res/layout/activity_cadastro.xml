@@ -58,6 +58,7 @@
         app:layout_constraintEnd_toEndOf="@id/ContainerComponents"/>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_cadastrar"
         style="@style/Button"
         android:layout_marginTop="84dp"
         android:text="Cadastar"
